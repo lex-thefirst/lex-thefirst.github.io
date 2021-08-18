@@ -46,7 +46,7 @@ button{
   padding-bottom: 10px;
   align-items: center;
   border-radius: 20px;
-  margin: 10px 0;
+  margin: 20px 20px;
 
 }
 .mainContent{
@@ -91,8 +91,11 @@ button{
   background: hsl(245, 75%, 52%);
   border-color: hsl(245, 75%, 52%);
   box-shadow: 0 2px 20px hsl(224, 23%, 55%);
-  /* clip-path: inset(0px 0px -15px 0px); */
 }
 .btn-outline-light{
   color: hsl(224, 23%, 55%);
+}
+.btn.btn-primary:hover{
+opacity: 0.6;
+
 }
